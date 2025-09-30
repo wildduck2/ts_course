@@ -137,7 +137,7 @@ Used when a function **never returns** (e.g., throws or loops forever):
 ```ts
 function fail(msg: string): never {
   // throw new Error(msg);
-    while(true) {}
+  while(true) {}
 }
 ```
 
